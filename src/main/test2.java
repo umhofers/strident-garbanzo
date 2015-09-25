@@ -9,6 +9,6 @@ public class test2
 	{
 		Date curr_date = new Date();
 		
-		return (int)( (curr_date.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
+		return 0; //I'm changing this!!!
 	}
 }
